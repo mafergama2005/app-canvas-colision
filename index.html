@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Simulaciones PRO</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<header class="navbar">
+    <h1>Graficación - 2.3 Detección de colisiones</h1>
+</header>
+
+<!-- 🎛 CONTROL -->
+<div class="controls">
+    <label>Velocidad:</label>
+    <input type="range" id="speedControl" min="0.5" max="5" step="0.5" value="2">
+</div>
+
+<main class="container">
+
+    <div class="box">
+        <h3>Rebote</h3>
+        <canvas id="reboteCanvas"></canvas>
+    </div>
+
+    <div class="box">
+        <h3>Colisiones</h3>
+        <canvas id="colisionCanvas"></canvas>
+    </div>
+
+    <div class="box">
+        <h3>Movimiento</h3>
+        <canvas id="movimientoCanvas"></canvas>
+    </div>
+
+</main>
+
+<footer class="footer">
+    <p>Maria Fernanda Gamabarron</p>
+    <p>Ingeniería en Sistemas Computacionales</p>
+</footer>
+
+<script src="assets/js/ui.js"></script>
+<script src="assets/js/main_rebote.js"></script>
+<script src="assets/js/main_colisiones.js"></script>
+<script src="assets/js/main_movimiento.js"></script>
+
+</body>
+</html>
